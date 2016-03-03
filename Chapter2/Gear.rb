@@ -8,7 +8,7 @@ class Gear
 	end
 	
 	def ratio
-		chaingring / cog.to_f
+		chainring / cog.to_f
 	end
 	
 	def gear_inches
