@@ -9,10 +9,14 @@ class Gear
 	end
 	
 	def ratio
-		return chaingring / cog.to_f
+		chaingring / cog.to_f
 	end
 	
 	def gear_inches
-		return ratio * (rimDiameter + (2 * tireDiameter))
+		ratio * diameter
+	end
+	
+	def diamter
+		rimDiamter + (2 * tireDiameter)
 	end
 end
